@@ -1,4 +1,4 @@
-/** Software Version: 2.2 | Dev: Engr Shuvo Das **/
+/** Software Version: 2.2 | Dev: mwakidenis **/
 import React, { useContext, useMemo, useState } from 'react';
 import { Card, Table, Typography, Space, Button, Tag, Row, Col, Divider, Modal, Tooltip, Badge, Avatar } from 'antd';
 import {
@@ -180,19 +180,6 @@ const SettlementSummary = () => {
     ];
 
     return (
-        <div className="fade-in-up">
-            <Row gutter={[24, 24]} align="middle" style={{ marginBottom: 24 }}>
-                <Col xs={24} md={12}>
-                    <Space size="middle">
-                        <div style={{ background: '#25D366', padding: 10, borderRadius: 12, display: 'flex' }}>
-                            <WhatsAppOutlined style={{ color: 'white', fontSize: 20 }} />
-                        </div>
-                        <div>
-                            <Title level={3} style={{ margin: 0 }}>Settlement Summary</Title>
-                            <Text type="secondary">Personalized WhatsApp updates for all members</Text>
-                        </div>
-                    </Space>
-                </Col>
                 <Col xs={24} md={12}>
                     <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', minWidth: 0, overflow: 'visible', maxWidth: '100%' }}>
                         <span style={{ display: 'flex', alignItems: 'center', background: '#fff', borderRadius: 8, boxShadow: '0 1px 4px rgba(0,0,0,0.08)', padding: '0 8px', maxWidth: '100%' }}>
