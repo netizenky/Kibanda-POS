@@ -198,7 +198,15 @@ const SettlementSummary = () => {
                         <Badge
                             count={<span style={{ fontWeight: 600, fontSize: 14 }}>Automation Ready</span>}
                             color="#25D366"
-                            style={{ background: '#fff', borderRadius: 8, padding: '0 12px', minWidth: 120, whiteSpace: 'nowrap', boxShadow: '0 1px 4px rgba(0,0,0,0.08)' }}
+                            style={{
+                                background: '#fffbe6', // light dark yellow
+                                borderRadius: 8,
+                                padding: '0 12px',
+                                minWidth: 120,
+                                whiteSpace: 'nowrap',
+                                boxShadow: '0 1px 4px rgba(0,0,0,0.08)',
+                                border: '1px solid #ffe58f', // subtle yellow border
+                            }}
                         />
                         <Tag icon={<ClockCircleOutlined />} color="processing" style={{ padding: '4px 12px', borderRadius: 8 }}>
                             Last Sync: {dayjs().format('HH:mm A')}
