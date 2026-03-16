@@ -52,7 +52,7 @@ const About = () => {
                         </div>
                         <div>
                             <Text type="secondary">Latest Update Date: </Text>
-                            <Text strong>March 16, 2026</Text>
+                            <Text strong>March 17, 2026</Text>
                         </div>
                     </Space>
                 </div>
