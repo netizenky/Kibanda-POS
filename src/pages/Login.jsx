@@ -100,8 +100,7 @@ const Login = () => {
 
                     <div style={{ textAlign: 'center', marginTop: 24 }}>
                         <Text type="secondary" style={{ fontSize: 12 }}>
-                            ©{new Date().getFullYear()} KibandaPOS • Developed by Engr Shuvo
-                        </Text>
+                            ©{new Date().getFullYear()} KibandaPOS • Developed by mwakidenis                        </Text>
                     </div>
                 </div>
             </Content>
